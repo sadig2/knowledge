@@ -1,7 +1,7 @@
-git config --global user.name “sadig2”
-git config --global user.email “clanzu2@yahoo.com”
+git config --global user.name “sadig2”  
+git config --global user.email “clanzu2@yahoo.com”  
 
-git status
+git status  
 
 git init    
 git rm -rf .git  

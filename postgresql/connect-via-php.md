@@ -1,4 +1,4 @@
-<?php  
+## <?php  
 
 require_once 'login.php';  
 $dbconnection = pg_connect("host=$db_hostname dbname=$db_database user=$db_username  

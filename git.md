@@ -25,3 +25,4 @@ git clone  url  .  / current directory  / dont initialize git init
 git remote add origin https://github.com/sadig2/newrep.git
 git push -u origin master
 
+git pull origin

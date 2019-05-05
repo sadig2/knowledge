@@ -16,7 +16,9 @@ git reset  / removes all
 
 git commit -m “ commentary”
 
-git log / commits i made
+git log / commits i made  
+
+git reset --hard f414f3(hascode)  **reset whole project to the state of hashcode commit ** 
 
 git clone  url  .  / current directory  / dont initialize git init 
 

@@ -10,3 +10,5 @@ kill  "pid of node" or pkill -f node
 **pwd** -- show full path
 
 **sudo  journalctl -xe** shows log  
+
+wget "url"   - to download a file

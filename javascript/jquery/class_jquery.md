@@ -1,3 +1,4 @@
+##  jQuerry = $ 
 ## $('.class').click(function(){})
 when accessing containers class parameter  <div class=""blah></div>
 

@@ -35,3 +35,4 @@ $('#link').attr( { href :'http://yahoo.com', title:'Yahoo!' } )
     $('code').before('<hr>').after('<hr>')
     $('#a').click(function() { $('#ball').remove() } )
     $('#b').click(function() { $('#quote').empty() } )\<h2>Example Document\</h2>]
+    

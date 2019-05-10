@@ -8,9 +8,11 @@ print(d)
 ## remove key-value
 del alien_0['points']  
 ## loop through key-value dictionary
-for key, value in user_0.items():    items() method is for key-value pair list
+for key, value in user_0.items():    
   print("\nKey: " + key)  
   print("Value: " + value)  
+  
+  items() method is for key-value pair list
 ## list in dictionary 
 pizza = {  
 'crust': 'thick',  

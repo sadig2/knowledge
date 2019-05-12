@@ -1,5 +1,7 @@
 ## To install i3 windows manager
 zypper install i3 dmenu i3status
+## configure screen resolution
+xrandr -s 1920x1080
 ### copy and paste
 to copy just highlight the text  and to paste shit+ctrl+insert   
 ## generate  configuration file for i3

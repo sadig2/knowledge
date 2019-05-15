@@ -19,4 +19,33 @@ amixer is utility of alsa
 add these lines to the bottom of the document 
 and run  shift+super(windows button)+r  to refresh i3
 
+
+## set layout switch in i3 
+bindsym F11 exec setxkbmap ru
+bindsym F12 exec setxkbmap gb
+
+## edit i3status.conf    
+vim /etc/i3status.conf    
+
+###
+ [i3status.conf](https://i3wm.org/i3status/manpage.html)  -to set up further
  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

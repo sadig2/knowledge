@@ -8,3 +8,6 @@ p.make_pizza(16, 'pepperoni')
 ## Importing All Functions in a Module
 from pizza import *
 make_pizza(16, 'pepperoni')  
+## import multiple classes from module  
+
+from car import class1,class2  

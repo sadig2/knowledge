@@ -1,3 +1,4 @@
+```html
 var n = 1  
 search: while (true)  
 {  

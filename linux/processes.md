@@ -1,4 +1,5 @@
-#  stop the process   ctrl + z    
+#  stop the process  
+ctrl + z    
 bg  move last process to the background
 
 ## list all running processes     ====  ps -ef -A 

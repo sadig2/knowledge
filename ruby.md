@@ -1,16 +1,14 @@
-gcc -v           detect c++ compiler 
+## to detect c++ compiler
 
-rvm - ruby version manager
+gcc -v              
 
-which ruby  -  detect ruby location used
+rvm - ruby version manager  
+which ruby  -  detect ruby location used  
+rvm install “ruby version”  
+bash --login   
 
-rvm install “ruby version”
-
-
-bash --login 
-
-rvm list
-rvm use  ruby version
+rvm list  
+rvm use  ruby version  
 
 
-rvm docs generate
+rvm docs generate  

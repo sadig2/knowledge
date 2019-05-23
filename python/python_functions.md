@@ -20,3 +20,9 @@ profile['last_name'] = last
 for key, value in user_info.items():  
 profile[key] = value  
 return profile  
+
+##  math.ceil(x)
+smallest integer number greater or equal to x
+
+## int("".join(map(str,extracted[i:i+8])),2)  
+2 - means it ll read first argument as bytes and convert into integer  

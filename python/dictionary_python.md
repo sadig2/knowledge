@@ -18,3 +18,11 @@ pizza = {
 'crust': 'thick',  
 'toppings': ['mushrooms', 'extra cheese'],  
 }  
+
+## multiple assignment
+
+def multipleres():  
+    a , b = 4 , 5  
+    return a , b  
+
+r ,t = multipleres()  

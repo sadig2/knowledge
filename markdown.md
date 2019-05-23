@@ -1,5 +1,5 @@
 [article](https://devpew.com/knowledgebase/)
-
+```html
 sudo dpkg-reconfigure tzdata  
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y curl wget vim git unzip socat bash-completion apt-transport-https build-essential

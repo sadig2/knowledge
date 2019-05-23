@@ -6,7 +6,7 @@ lstrip()  or fstrip()  or strip
  list_name.append(''')  
  inserting into list   -   list_name.insert(0,''')  
 deleting an element from list - del list_name[0]
-№№ opped_motorcycle = motorcycles.pop(0)  
+ popped_motorcycle = motorcycles.pop(0)  
 delete element and use it  
 ## motorcycles.remove('ducati')
 removing by name  
@@ -42,3 +42,6 @@ do something
 
 # cheking if list is not empty
 if requested_toppings:
+
+## double slash
+to divide with result without fraction

@@ -1,3 +1,4 @@
+```html
 ## reading php post method associated array 
 <?php // urlpost.php
 if (isset($_POST['url']))
@@ -10,8 +11,5 @@ function SanitizeString($var)
     $var =htmlentities($var);
 return stripslashes($var);
 }
-
-
-
 
 ?>

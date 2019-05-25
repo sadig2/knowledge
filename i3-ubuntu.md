@@ -21,3 +21,18 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install fontconfig-infinality
 
+
+## set up i3blocks  bar
+
+[volume]
+label=VOL
+#label=♪
+instance=Master
+#instance=PCM
+interval=1
+signal=10
+command=/usr/share/i3blocks/volume 5 pulse
+
+
+add this code in i3blocks.conf  after you moved it to .config/i3
+

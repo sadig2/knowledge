@@ -44,7 +44,9 @@ VALUES('demouser','localhost',PASSWORD('demopassword'),'','','');
 
 GRANT ALL PRIVILEGES ON demodb.* to demouser@localhost;  
 
- 
+ ## list users
+    select User from mysql.user;
+    
 
 
 

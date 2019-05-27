@@ -30,6 +30,12 @@ vim /etc/i3status.conf
 ###
  [i3status.conf](https://i3wm.org/i3status/manpage.html)  -to set up further  
  
+## change layout i3   xkb 
+
+    setxkbmap -option grp:alt_shift_toggle us,ru
+    
+    
+ 
  
 
 

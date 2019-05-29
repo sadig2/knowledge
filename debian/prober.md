@@ -1,10 +1,10 @@
-sudo apt-get update && sudo apt-get install remmina remmina-plugin-rdp libfreerdp-plugins-standard  
+    sudo apt-get update && sudo apt-get install remmina remmina-plugin-rdp libfreerdp-plugins-standard  
 
 
-mkfs.vfat -F32 /dev/sdb  
-mount -o loop  iso  folder   
+    mkfs.vfat -F32 /dev/sdb  
+    mount -o loop  iso  folder   
 
-sudo os-prober  
+    sudo os-prober  
 
 
 If your Windows installation was found, you can run:  

@@ -1,14 +1,14 @@
 ## ALTER TABLE employees
-  ADD last_name VARCHAR(50),
-      first_name VARCHAR(40);
-
-ALTER TABLE "table_name"
-RENAME COLUMN "column 1" TO "column 2";
-
-ALTER TABLE classics ALTER COLUMN year TYPE SMALLINT;
-
-delete from classics where author='sadig';
-
+      ADD last_name VARCHAR(50),
+          first_name VARCHAR(40);
+    
+    ALTER TABLE "table_name"
+    RENAME COLUMN "column 1" TO "column 2";
+    
+    ALTER TABLE classics ALTER COLUMN year TYPE SMALLINT;
+    
+    delete from classics where author='sadig';
+    
 
 
 

@@ -1,21 +1,21 @@
 ## write into json
-import json  
-numbers = [2, 3, 5, 7, 11, 13]  
-filename = 'numbers.json'  
-with open(filename, 'w') as f_obj:  
-    json.dump(numbers, f_obj)    
+    import json  
+    numbers = [2, 3, 5, 7, 11, 13]  
+    filename = 'numbers.json'  
+    with open(filename, 'w') as f_obj:  
+        json.dump(numbers, f_obj)    
 
 ## read from json 
-import json  
-    filename = 'numbers.json'  
-    with open(filename) as f_obj:  
-     numbers = json.load(f_obj)  
-    print(numbers)
+    import json  
+        filename = 'numbers.json'  
+        with open(filename) as f_obj:  
+         numbers = json.load(f_obj)  
+        print(numbers)
     
 ## refactored json
 
-import json  
-def get_stored_username():
+    import json  
+    def get_stored_username():
 
       filename = 'username.json'
                 try:
@@ -27,7 +27,7 @@ def get_stored_username():
                     return username  
 
 
-def greet_user():
+    def greet_user():
 
     username = get_stored_username()
 
@@ -40,7 +40,7 @@ def greet_user():
         json.dump(username, f_obj)
         print("We'll remember you when you come back, " + username + "!")
 
-greet_user()    
+    greet_user()    
     
     
     

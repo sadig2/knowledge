@@ -1,18 +1,18 @@
 ## testing in python using pycharm
-**right click on file i want to test and create goto->test then edit test test file this way **  
-from unittest import TestCase  
-class TestGet_formatted_name(TestCase):  
-    def test_get_formatted_name(self):  
-        from  test1 import get_formatted_name  
-        check = get_formatted_name('sadig', 'naibbayli')  
-        self.assertEqual(check, 'Sadig Naibbayli')  
-
-functions starting with test_ will run automatically  
+    **right click on file i want to test and create goto->test then edit test test file this way **  
+    from unittest import TestCase  
+    class TestGet_formatted_name(TestCase):  
+        def test_get_formatted_name(self):  
+            from  test1 import get_formatted_name  
+            check = get_formatted_name('sadig', 'naibbayli')  
+            self.assertEqual(check, 'Sadig Naibbayli')  
+    
+    functions starting with test_ will run automatically  
 
 ## set up method (not to repeat assigning needed objects and methods)
 
-
-class Anonymoussurvey():
+    
+    class Anonymoussurvey():
 
     def __init__(self,question):
         self.question = question

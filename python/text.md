@@ -1,3 +1,3 @@
 ## 
-c = "{} naibbayli".format("sadig")
-print(c)
+    c = "{} naibbayli".format("sadig")
+    print(c)

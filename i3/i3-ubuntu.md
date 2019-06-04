@@ -1,6 +1,10 @@
 ## set up volume and brigtness control for i3 in ubuntu 
     sudo apt-get update; sudo apt-get install xbacklight alsa-utils pulseaudio
 
+## install and move i3blocks.conf to .config/i3/  
+	apt install i3blocks 
+	sudo mv  /etc/i3blocks.conf ~/.config/i3
+
 ## then add lines to config 
 
 # Pulse Audio controls

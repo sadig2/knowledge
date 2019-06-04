@@ -69,4 +69,30 @@
     my laptop runs linux
 ## relative assign 
     >>> '{:,d} {:,d}'.format(9999999, 8888888)
-    '9,999,999 8,888,888'                                         
+    '9,999,999 8,888,888' 
+
+## binary format code     
+      c = '%s' % bin((2 ** 16) - 1)[2:]
+##   single value 
+    >>> '%.2f' % 1.2345
+    '1.23'
+
+    >>> '{num:d} = {title:s}'.format(num=7, title='Strings')
+    '7 = Strings'
+    >>> '{num} = {title}'.format(**dict(num=7, title='Strings'))
+    '7 = Strings'    
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+                                            

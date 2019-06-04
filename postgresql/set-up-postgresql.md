@@ -22,6 +22,13 @@ use “databasenam”;
 
 \d “tablename”    - shows table content  
 
+
+## delete user 
+    drop user "username";
+## delete database 
+    drop database "dbname";
+
+
 CREATE TABLE table_name(  
     id SERIAL  
 );  

@@ -28,3 +28,16 @@ git remote add origin https://github.com/sadig2/newrep.git
 git push -u origin master
 
 git pull origin
+
+
+## to save local data temporarily  before pull    - so it ll be invisible to later return it 
+
+    git stash save "name of the file or directory"
+
+## to make saved data visible type in 
+
+    git stash apply
+## untrack all files   -r recursive   all files  in directory   . means untrack all 
+    git rm -r --cached .
+
+        

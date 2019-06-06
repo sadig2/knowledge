@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/git.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="581">
+              <first_editor relative-caret-position="346">
                 <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
               </first_editor>
               <second_editor />
@@ -296,12 +296,12 @@
       <workItem from="1559589828929" duration="695000" />
       <workItem from="1559741205931" duration="949000" />
       <workItem from="1559750909817" duration="339000" />
-      <workItem from="1559814786072" duration="1985000" />
+      <workItem from="1559814786072" duration="2567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69864000" />
+    <option name="totallyTimeSpent" value="70446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="0" />
@@ -323,7 +323,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18063112" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32317737" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -812,7 +812,7 @@
     <entry file="file://$PROJECT_DIR$/git.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="581">
+          <first_editor relative-caret-position="346">
             <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
           </first_editor>
           <second_editor />

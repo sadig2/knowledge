@@ -34,4 +34,27 @@
 
 ##   to match number in http request like localhost/43/
     <int:question_id>   i can name quaetion_id whatever i want
+    
+    
+## foreign key is questoin field that i created and connected it with id of Question class 
+
+    from django.db import models
+    from django.utils import timezone
+    import datetime
+    
+    class Question(models.Model):
+        question_text = models.CharField(max_length=200)
+        pub_date = models.DateTimeField('date published')
+    
+        def __str__(self):
+            return  self.question_text
+    
+        def was_published_recently(self):
+            return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+    
+    class Choice(models.Model):
+        question = models.ForeignKey(Question,related_name='choices', on_delete=models.CASCADE)
+        choice_text = models.CharField(max_length=200)
+        votes = models.IntegerField(default=0)
+
      

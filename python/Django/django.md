@@ -29,7 +29,6 @@
 ## import timezone , Question
     from polls.models  import Question
     from django.utils import timezone   
-    
     a = Question(var1 = "" , var2 =  " " )
     a.save()
     a.var1   - will show first variable 
@@ -45,6 +44,7 @@
 ## custom method 
     q = Question.objects.get(pk=1)   - get object at first index 
     q.waspublishedrecently
+    
 
 
 
@@ -52,7 +52,7 @@
     python manage.py createsuperuser
 ## run test server
     python manage.py runserver      
-## register object in meodels.py (database table )  in admin.py file
+## register object in models.py (database table )  in admin.py file
     from django.contrib import admin
     
     from .models import Question

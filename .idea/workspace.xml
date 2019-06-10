@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb0b98be-6f4c-49e2-9cc5-e402451aa197" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ajax/HTTPS/Requests.md" afterDir="false" />
+    <list default="true" id="19f017f1-bf4c-47ee-9c92-36530d7f6278" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/knowledge.wiki.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/git.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresql/set-up-postgresql.md" beforeDir="false" afterPath="$PROJECT_DIR$/postgresql/set-up-postgresql.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Django/django.md" beforeDir="false" afterPath="$PROJECT_DIR$/python/Django/django.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Django/setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/python/Django/setup.md" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,16 +18,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/Django/django.md">
+        <entry file="file://$PROJECT_DIR$/python/Django/setup.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="885">
-                <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+              <first_editor relative-caret-position="1117">
+                <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
               </first_editor>
               <second_editor />
             </state>
@@ -30,7 +36,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/versatile.md">
+        <entry file="file://$PROJECT_DIR$/postgresql/set-up-postgresql.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-384">
+                <caret line="1" column="43" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="43" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/postgresql/syntax-of-postgresql.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
@@ -39,13 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/git.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/postgresql/post-input-into-database.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="346">
-                <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-              </first_editor>
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/postgresql/connect-via-php.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -55,8 +81,18 @@
         <entry file="file://$PROJECT_DIR$/python/Django/django-urls.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="540">
-                <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/Django/django.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="64" lean-forward="true" selection-start-column="9" selection-end-column="64" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,12 +100,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/Django/setup.md">
+        <entry file="file://$PROJECT_DIR$/git.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1530">
-                <caret line="102" column="64" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -77,79 +111,36 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>psql</find>
+      <find>psy</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/archlinux/installing-arch.md" />
-        <option value="$PROJECT_DIR$/debian/disk-space.md" />
-        <option value="$PROJECT_DIR$/debian/prober.md" />
-        <option value="$PROJECT_DIR$/i3/i3-ubuntu.md" />
-        <option value="$PROJECT_DIR$/i3/i3_install.md" />
-        <option value="$PROJECT_DIR$/java/java-code.md" />
-        <option value="$PROJECT_DIR$/java/java_optional_argument.md" />
-        <option value="$PROJECT_DIR$/java/set-variables.md" />
-        <option value="$PROJECT_DIR$/java/String_formatter.md" />
-        <option value="$PROJECT_DIR$/javascript/jquery/class_jquery.md" />
-        <option value="$PROJECT_DIR$/javascript/jquery/form.md" />
-        <option value="$PROJECT_DIR$/General_programming/utf-8.md" />
-        <option value="$PROJECT_DIR$/i3/conf.md" />
-        <option value="$PROJECT_DIR$/postgresql/syntax-of-postgresql.md" />
-        <option value="$PROJECT_DIR$/linux/processes.md" />
-        <option value="$PROJECT_DIR$/markdown.md" />
-        <option value="$PROJECT_DIR$/javascript/jquery/toggle.md" />
-        <option value="$PROJECT_DIR$/javascript/jquery/Remove_class.md" />
-        <option value="$PROJECT_DIR$/javascript/functions.md" />
-        <option value="$PROJECT_DIR$/javascript/javascript-name-of-loop.md" />
-        <option value="$PROJECT_DIR$/linux/geany.md" />
-        <option value="$PROJECT_DIR$/linux/networkmanager.md" />
-        <option value="$PROJECT_DIR$/opensuse/zypper.md" />
-        <option value="$PROJECT_DIR$/php/php-script.md" />
-        <option value="$PROJECT_DIR$/php/php_post.md" />
-        <option value="$PROJECT_DIR$/postgresql/connect-via-php.md" />
-        <option value="$PROJECT_DIR$/postgresql/post-input-into-database.md" />
-        <option value="$PROJECT_DIR$/python/Django/setup.md" />
-        <option value="$PROJECT_DIR$/python/init.md" />
-        <option value="$PROJECT_DIR$/python/args.md" />
-        <option value="$PROJECT_DIR$/python/bites.md" />
-        <option value="$PROJECT_DIR$/python/dictionary_python.md" />
-        <option value="$PROJECT_DIR$/python/encode.md" />
-        <option value="$PROJECT_DIR$/python/exception.md" />
-        <option value="$PROJECT_DIR$/python/File.md" />
-        <option value="$PROJECT_DIR$/python/json.md" />
-        <option value="$PROJECT_DIR$/python/keywords.md" />
-        <option value="$PROJECT_DIR$/python/listcomprehension.md" />
-        <option value="$PROJECT_DIR$/python/python_functions.md" />
-        <option value="$PROJECT_DIR$/python/python_import.md" />
-        <option value="$PROJECT_DIR$/python/python_input.md" />
-        <option value="$PROJECT_DIR$/python/python_methods.md" />
-        <option value="$PROJECT_DIR$/python/test.md" />
-        <option value="$PROJECT_DIR$/python/text.md" />
-        <option value="$PROJECT_DIR$/python/string.md" />
-        <option value="$PROJECT_DIR$/python/list.md" />
-        <option value="$PROJECT_DIR$/python/llist.md" />
         <option value="$PROJECT_DIR$/postgresql/set-up-postgresql.md" />
+        <option value="$PROJECT_DIR$/python/Django/setup.md" />
         <option value="$PROJECT_DIR$/python/Django/django.md" />
-        <option value="$PROJECT_DIR$/python/Django/django-urls.md" />
-        <option value="$PROJECT_DIR$/git.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-1" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+    <option name="x" value="-2" />
+    <option name="y" value="-27" />
+    <option name="width" value="1924" />
+    <option name="height" value="1109" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,72 +148,6 @@
             <path>
               <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
               <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="archlinux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="debian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="General_programming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="i3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="linux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="opensuse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="postgresql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge.wiki" type="462c0819:PsiDirectoryNode" />
-              <item name="pycharm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="knowledge.wiki" type="b2602c69:ProjectViewProjectNode" />
@@ -239,26 +164,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/i3" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,36 +190,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fb0b98be-6f4c-49e2-9cc5-e402451aa197" name="Default Changelist" comment="" />
-      <created>1558866254791</created>
+      <changelist id="19f017f1-bf4c-47ee-9c92-36530d7f6278" name="Default Changelist" comment="" />
+      <created>1559904819728</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558866254791</updated>
-      <workItem from="1558866256191" duration="4555000" />
-      <workItem from="1558933107210" duration="16120000" />
-      <workItem from="1558985457856" duration="7771000" />
-      <workItem from="1559107915424" duration="6552000" />
-      <workItem from="1559199781590" duration="16000" />
-      <workItem from="1559199836455" duration="2434000" />
-      <workItem from="1559212557544" duration="11385000" />
-      <workItem from="1559287302410" duration="5948000" />
-      <workItem from="1559376903691" duration="5014000" />
-      <workItem from="1559505412814" duration="755000" />
-      <workItem from="1559539319812" duration="5346000" />
-      <workItem from="1559589828929" duration="695000" />
-      <workItem from="1559741205931" duration="949000" />
-      <workItem from="1559750909817" duration="339000" />
-      <workItem from="1559814786072" duration="2567000" />
+      <updated>1559904819728</updated>
+      <workItem from="1559904821180" duration="6104000" />
+      <workItem from="1560143301580" duration="1200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70446000" />
+    <option name="totallyTimeSpent" value="7304000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1053" extended-state="0" />
+    <frame x="-2" y="-27" width="1924" height="1109" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19399786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20320855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,7 +224,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32317737" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -340,57 +241,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javascript/jquery/form.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/jquery/Remove_class.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/jquery/toggle.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/functions.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="576">
-            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/javascript-name-of-loop.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="312">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/nodejs.md">
+    <entry file="file://$PROJECT_DIR$/postgresql/connect-via-php.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -398,315 +249,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux/geany.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="25">
-            <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="2" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/networkmanager.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="4" selection-start-column="4" selection-end-line="4" selection-end-column="56" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/processes.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux/vim.md">
+    <entry file="file://$PROJECT_DIR$/git.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opensuse/Apache2-for-Opensuse.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opensuse/apache_directory.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opensuse/chmod-right.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opensuse/django.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opensuse/launcher-linux.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opensuse/networkmanager.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opensuse/opensuse_version.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opensuse/vlc.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opensuse/zypper.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-script.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycharm/python_path.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php_post.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/dictionary_python.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/pip.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/python_functions.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/python_import.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/python_input.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/python_methods.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="540">
-            <caret line="46" column="24" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/test.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/text.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="2" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/bites.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/json.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="630">
-            <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/keywords.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/init.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/list.md" />
-    <entry file="file://$PROJECT_DIR$/python/File.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="510">
-            <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/exception.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/encode.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="43" selection-start-line="1" selection-end-line="1" selection-end-column="49" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/listcomprehension.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="25" selection-start-line="25" selection-end-line="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/string.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1230">
-            <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
-          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -714,9 +260,7 @@
     <entry file="file://$PROJECT_DIR$/postgresql/syntax-of-postgresql.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -724,8 +268,8 @@
     <entry file="file://$PROJECT_DIR$/postgresql/set-up-postgresql.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="750">
-            <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <first_editor relative-caret-position="-384">
+            <caret line="1" column="43" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="43" />
           </first_editor>
           <second_editor />
         </state>
@@ -734,67 +278,7 @@
     <entry file="file://$PROJECT_DIR$/postgresql/post-input-into-database.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgresql/connect-via-php.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="26" selection-start-line="26" selection-end-line="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/args.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/llist.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/Django/django.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="885">
-            <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/versatile.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
           <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/Django/django-urls.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="540">
-            <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -802,22 +286,45 @@
     <entry file="file://$PROJECT_DIR$/python/Django/setup.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1530">
-            <caret line="102" column="64" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
+          <first_editor relative-caret-position="1117">
+            <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git.md">
+    <entry file="file://$PROJECT_DIR$/python/Django/django-urls.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="346">
-            <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/Django/django.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="64" lean-forward="true" selection-start-column="9" selection-end-column="64" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

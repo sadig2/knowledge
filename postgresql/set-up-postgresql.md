@@ -5,22 +5,26 @@ systemctl enable postgresql.service    it ll generate folders in /var/lib/pgsql/
 ## delete database 
     DROP USER [ IF EXISTS ] name [, ...]
 
-sudo -i   
 
-sudo psql -U postgres  
 
-psql postgres postgres  
-\password     
 
-use “databasenam”;  
+## to switch to postgres user of server
+    sudo -i -u postgres  
 
-\du - list users
-\l - list databases 
-\?   - help  
-\dp -  list tables  
-\dt - list tables  
-
-\d “tablename”    - shows table content  
+    \password     
+    
+    use “databasenam”;  
+    
+    \du - list users
+    \l - list databases 
+    \?   - help  
+    \dp -  list tables  
+    \dt - list tables  
+    
+    \d “tablename”    - shows table content  
+    
+## switch to specific user and database 
+    psql "db" "user"    
 
 
 ## delete user 
@@ -28,20 +32,20 @@ use “databasenam”;
 ## delete database 
     drop database "dbname";
 
-
-CREATE TABLE table_name(  
-    id SERIAL  
-);  
-is equivalent to the following statements:  
-
-CREATE SEQUENCE table_name_id_seq;  
- 
-CREATE TABLE table_name (  
-    id integer NOT NULL DEFAULT nextval('table_name_id_seq')  
-);  
- 
-ALTER SEQUENCE table_name_id_seq  
-OWNED BY table_name.id;  
+    
+    CREATE TABLE table_name(  
+        id SERIAL  
+    );  
+    is equivalent to the following statements:  
+    
+    CREATE SEQUENCE table_name_id_seq;  
+     
+    CREATE TABLE table_name (  
+        id integer NOT NULL DEFAULT nextval('table_name_id_seq')  
+    );  
+     
+    ALTER SEQUENCE table_name_id_seq  
+    OWNED BY table_name.id;  
 
 
 

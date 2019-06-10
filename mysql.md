@@ -8,7 +8,7 @@ systemctl is-enabled mysql
 
 sudo reboot
 
-ssh 10.111.112.113
+ssh username@10.111.112.113
 
 mysql_secure_installation
 

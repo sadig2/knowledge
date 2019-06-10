@@ -1,4 +1,11 @@
 [django](https://docs.djangoproject.com/en/2.2/intro/tutorial03/)  
+
+## to install django and django-admin 
+    pip install django django-admin
+## to create project  
+    django-admin startproject name
+
+
 ## to start application 
     python manage.py startapp polls
 ## in polls/view.py  add 

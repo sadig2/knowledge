@@ -2,6 +2,10 @@
 ## install packages 
     sudo apt-get install python3-pip python3-dev libpq-dev postgresql postgresql-contrib nginx
 
+##  save list of intall packages in txt file like 
+    pip freeze requireddependencies.txt
+## install dependencies for django from txt file
+    pip install -r requireddependencies.txt    
 
 ## create virtual evnvironment 
     virtualenv py1

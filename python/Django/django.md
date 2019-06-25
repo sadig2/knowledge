@@ -1,4 +1,17 @@
 [django](https://docs.djangoproject.com/en/2.2/intro/tutorial03/)  
+[rest api](https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-2)
+
+
+
+## to create virtual environment 
+    sudo apt install -y python3-venv
+    python3 -m venv venv1
+
+## update pip
+    pip install --upgrade pip
+    pip install --upgrade django
+    pip install --upgrade setuptools
+    
 
 ## to install django and django-admin 
     pip install django django-admin
@@ -8,6 +21,7 @@
 
 ## to start application 
     python manage.py startapp polls
+    django-admin startapp quickstart
 ## in polls/view.py  add 
     from django.http import HttpResponse
     
@@ -65,6 +79,10 @@
     python manage.py createsuperuser
 ## run test server
     python manage.py runserver      
+    
+## runserver with multiple settings files
+    python manage.py runserver --settings=mysite.settings.development    
+    
 ## register object in models.py (database table )  in admin.py file
     from django.contrib import admin
     

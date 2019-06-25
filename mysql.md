@@ -14,7 +14,11 @@ mysql_secure_installation
 
 Sign in to MySQL
 You can now sign in and enter the MySQL prompt.
-mysql -u root -p
+
+
+## to log in to mysql vie user name or root
+
+mysql -u "username" -p
 
 This switches you to the MySQL prompt where you can issue SQL statements to interact with the database.
 Now, create a new MySQL user.

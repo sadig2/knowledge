@@ -1,3 +1,9 @@
+## install postgres for ubuntu 
+
+    sudo apt install postgresql postgresql-contrib
+    
+
+
 ## edit /var/lib/pgsql/data/pg_hba.conf     set modes from ident ->trust
 ## for ubuntu go to /etc/postgresql/10/main  to configure pg_hba.conf
 systemctl enable postgresql.service    it ll generate folders in /var/lib/pgsql/data  

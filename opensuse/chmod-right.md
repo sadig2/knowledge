@@ -1,5 +1,8 @@
 ls -ld  “file name”
 
+## shebang to make file executable 
+    #!/bin/sh
+
 
 
 sudo chmod 7777 srv

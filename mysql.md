@@ -53,11 +53,11 @@ GRANT ALL PRIVILEGES ON demodb.* to demouser@localhost;
 
 
  ## mariadb  grant all privileges on user
-
+      mysql -u root -u
       select user from mysql.user;
       show databases;
       use "name of the database";
-      grant all privileges on "name of the database" to "name of user"@localhost;
+      GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY '%password%' WITH GRANT OPTION;
     
 
 

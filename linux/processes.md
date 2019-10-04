@@ -13,3 +13,11 @@ bg  move last process to the background
 **sudo  journalctl -xe** shows log  
 
 wget "url"   - to download a file
+
+## change hostname
+
+        sudo hostnamectl set-hostname newhostname
+
+        sudo nano /etc/hosts
+
+        

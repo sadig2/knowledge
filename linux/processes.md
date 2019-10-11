@@ -20,4 +20,19 @@ wget "url"   - to download a file
 
         sudo nano /etc/hosts
 
+
+## to increase number of files monitored by the system 
+
+                sudo gedit /etc/sysctl.conf
+
+        Add a line at the bottom
+
+        fs.inotify.max_user_watches=524288
+
+        Then save and exit!
+
+        sudo sysctl -p
+
+        to check it
+
         

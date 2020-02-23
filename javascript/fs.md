@@ -1,3 +1,4 @@
+## how to import fs module
     const fs = require('fs');
     const path = require('path');
 
@@ -35,3 +36,6 @@
         if(err) throw err;
         console.log("renamed..");
     });
+
+
+    

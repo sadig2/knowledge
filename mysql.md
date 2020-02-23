@@ -18,7 +18,7 @@ You can now sign in and enter the MySQL prompt.
 
 ## to log in to mysql vie user name or root
 
-mysql -u "username" -p
+   mysql -u "username" -p
 
 This switches you to the MySQL prompt where you can issue SQL statements to interact with the database.
 Now, create a new MySQL user.
@@ -51,6 +51,14 @@ desc ‘table name’ ;
 
  ## list users
     select User from mysql.user;
+
+
+ ## mariadb  grant all privileges on user
+      mysql -u root -u
+      select user from mysql.user;
+      show databases;
+      use "name of the database";
+      GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY '%password%' WITH GRANT OPTION;
     
 
 

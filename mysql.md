@@ -40,13 +40,14 @@ desc ‘table name’ ;
 (mysql for ubuntu)[https://support.rackspace.com/how-to/installing-mysql-server-on-ubuntu/]  
 
 ## to set new root name and password   
-UPDATE mysql.user SET authentication_string = PASSWORD('password') WHERE User = 'root';  
-FLUSH PRIVILEGES;
+      UPDATE mysql.user SET authentication_string = PASSWORD('password') WHERE User = 'root';  
+      FLUSH PRIVILEGES;
 ## create user 
-INSERT INTO mysql.user (User,Host,authentication_string,ssl_cipher,x509_issuer,x509_subject)
-VALUES('demouser','localhost',PASSWORD('demopassword'),'','','');  
 
-GRANT ALL PRIVILEGES ON demodb.* to demouser@localhost;  
+      INSERT INTO mysql.user (User,Host,authentication_string,ssl_cipher,x509_issuer,x509_subject)
+      VALUES('demouser','localhost',PASSWORD('demopassword'),'','','');  
+
+      GRANT ALL PRIVILEGES ON demodb.* to demouser@localhost;  
 
  ## list users
     select User from mysql.user;

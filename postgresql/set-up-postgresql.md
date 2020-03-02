@@ -5,7 +5,9 @@
 
 
 ## edit /var/lib/pgsql/data/pg_hba.conf     set modes from ident ->trust
-## for ubuntu go to /etc/postgresql/10/main  to configure pg_hba.conf
+## for ubuntu go to 
+
+/etc/postgresql/10/main  to configure pg_hba.conf
 systemctl enable postgresql.service    it ll generate folders in /var/lib/pgsql/data  
 
 ## delete database 
@@ -16,6 +18,8 @@ systemctl enable postgresql.service    it ll generate folders in /var/lib/pgsql/
 
 ## to switch to postgres user of server
     sudo -i -u postgres  
+
+    psql
 
     \password     
     

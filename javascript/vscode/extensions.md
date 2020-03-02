@@ -1,4 +1,9 @@
-vs code extensions list
+## how to output installed extenstions
+
+    code --list-extensions | xargs -L 1 echo code --install-extension > vscode_extensio
+    ns.txt
+
+## vs code extensions list
 
     code --install-extension batisteo.vscode-django
     code --install-extension bibhasdn.django-html

@@ -1,5 +1,6 @@
 [django](https://docs.djangoproject.com/en/2.2/intro/tutorial03/)  
 [rest api](https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-2)
+[django mail](https://wsvincent.com/django-contact-form/)
 
 ## to create virtual environment for python2
 
@@ -37,7 +38,6 @@
     def index(request):
         return HttpResponse("Hello, world. You're at the polls index.")
 
-
 ## to save necessary dependencies of django project that i installed for future development
 
     pip freeze > requirements.txt
@@ -45,7 +45,6 @@
 ## to read from saved file to install deeded dependencies
 
     pip install -r requirements.txt
-
 
 ## in polls/urls.py
 

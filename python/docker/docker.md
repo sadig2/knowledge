@@ -67,3 +67,7 @@
 ## to run dev container
 
        sudo docker-compose up -d --build
+
+## run dev migrations
+
+        docker-compose exec web python manage.py migrate --noinput

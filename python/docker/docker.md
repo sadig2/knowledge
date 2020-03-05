@@ -48,14 +48,6 @@
 
         docker-compose run app sh -c "django-admin.py startproject app ."
 
-## to remove the volumes along with the containers.
-
-        docker-compose down -v
-
-## Build the new image and spin up the two containers:
-
-        docker-compose up -d --build
-
 ## in case of error for logs
 
         docker-compose -f docker-compose.prod.yml logs -f
@@ -71,3 +63,15 @@
 ## run dev migrations
 
         docker-compose exec web python manage.py migrate --noinput
+
+## run production docker
+
+        docker-compose down -v
+        docker-compose -f docker-compose.prod.yml up -d --build
+        docker-compose -f docker-compose.prod.yml exec web python manage.py migrate --noinput
+        docker-compose -f docker-compose.prod.yml exec web python manage.py collectstatic --no-input --clear
+
+## to be able to use Pillow in django in docker install Pillow dependencies
+
+        RUN apk add zlib libjpeg-turbo-dev libpng-dev freetype-dev lcms2-dev libwebp-dev \
+        harfbuzz-dev fribidi-dev tcl-dev tk-dev

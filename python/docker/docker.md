@@ -6,7 +6,7 @@
 
 ## list id of images of docker
 
-        sudo 3 images -qa
+        sudo  images -qa
 
 ## delete image of docker
 
@@ -31,6 +31,14 @@
 ## remove all containers
 
         sudo docker rm $(sudo docker ps -qa)
+
+## remove all docker network interfaces
+
+        sudo docker network rm $(docker network ls -q)
+
+## list docker network interfaces
+
+        sudo docker network rm $(docker network ls -q)
 
 ## build container
 

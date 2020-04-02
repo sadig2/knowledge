@@ -1,4 +1,5 @@
 [docker](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
+[docker-compose install](https://linuxize.com/post/how-to-install-and-use-docker-compose-on-ubuntu-18-04/)
 
 ## install docker
 

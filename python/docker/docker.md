@@ -1,5 +1,21 @@
 [docker](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
 
+## install docker
+
+        sudo apt install docker
+
+## install docker-compose
+
+        pip install docker-compose
+
+## edit .bashrc
+
+        vim ~/.bashrc
+
+        which docker-compose
+
+        export something="pathto docker-compose"
+
 ## list images of docker
 
         sudo docker images -a

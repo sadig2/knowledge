@@ -1,43 +1,53 @@
 git config --global user.name “sadig2”  
-git config --global user.email “clanzu2@yahoo.com”  
+git config --global user.email “clanzu2@yahoo.com”
 
-git status  
+git status
 
-git init    
-git rm -rf .git  
+git init  
+git rm -rf .git
 
-touch .gitignore  / edit file 
+touch .gitignore / edit file
 
-git add “file” 
-git add -A   /add all
+git add “file”
+git add -A /add all
 
-git reset “file” /remove from staging 
-git reset  / removes all
+git reset “file” /remove from staging
+git reset / removes all
 
 git commit -m “ commentary”
 
-git log / commits i made  
+git log / commits i made
 
-git reset --hard f414f3(hascode)  **reset whole project to the state of hashcode commit ** 
+git reset --hard f414f3(hascode) **reset whole project to the state of hashcode commit **
 
-git clone  url  .  / current directory  / dont initialize git init 
-
-
+git clone url . / current directory / dont initialize git init
 
 git remote add origin https://github.com/sadig2/newrep.git
 git push -u origin master
 
 git pull origin
 
-
-## to save local data temporarily  before pull    - so it ll be invisible to later return it 
+## to save local data temporarily before pull - so it ll be invisible to later return it
 
     git stash save "name of the file or directory"
 
-## to make saved data visible type in 
+## to make saved data visible type in
 
     git stash apply
-## untrack all files   -r recursive   all files  in directory   . means untrack all 
+
+## untrack all files -r recursive all files in directory . means untrack all
+
     git rm -r --cached .
 
-        
+## to show old hidden detached commits
+
+    git reflog
+
+## to add detached commit into new branch
+
+    git branch new-branch ba5a739
+
+## then i can merge it checking out in master branch beforehands
+
+    git checkout master
+    git merge new-branch

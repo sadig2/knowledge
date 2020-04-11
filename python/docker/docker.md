@@ -55,7 +55,7 @@
 
 ## list docker network interfaces
 
-        sudo docker network rm $(docker network ls -q)
+        sudo docker network rm $(sudo docker network ls -q)
 
 ## build container
 

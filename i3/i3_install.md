@@ -54,4 +54,6 @@ and run shift+super(windows button)+r to refresh i3
 
 ## then optionally create .sh file in /opt/apss and add lines >
 
-        xfce4-screenshooter -r -c
+            xfce4-screenshooter -r -c
+            sleep 3
+            killall xfce4-screenshooter

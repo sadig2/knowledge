@@ -1,6 +1,10 @@
 [docker](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
 [docker-compose install](https://docs.docker.com/compose/install/)
 
+[docker for windows](https://futurestud.io/tutorials/how-to-fix-exec-user-process-caused-no-such-file-or-directory-in-docker)
+
+## to start docker in windows convert file format from dos to unix with dos2unix _yourfile.sh_
+
 ## install docker
 
         sudo apt install docker

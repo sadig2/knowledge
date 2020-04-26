@@ -51,3 +51,7 @@ git pull origin
 
     git checkout master
     git merge new-branch
+
+## to force git to push
+
+    git push -f

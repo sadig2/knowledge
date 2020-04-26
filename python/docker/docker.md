@@ -95,10 +95,14 @@
 
 ## run production docker
 
-        docker-compose down -v
-        docker-compose -f docker-compose.prod.yml up -d --build
-        docker-compose -f docker-compose.prod.yml exec web python manage.py migrate --noinput
-        docker-compose -f docker-compose.prod.yml exec web python manage.py collectstatic --no-input --clear
+        sudo docker-compose down -v
+        sudo docker-compose -f docker-compose.prod.yml up -d --build
+        sudo docker-compose -f docker-compose.prod.yml exec web python manage.py migrate --noinput
+        sudo docker-compose -f docker-compose.prod.yml exec web python manage.py collectstatic --no-input --clear
+
+        sudo docker-compose -f docker-compose.prod.yml up -d --force-recreate --no-deps --build nginx
+
+        [important to create and run container](https://docs.docker.com/compose/reference/up/)
 
 ## to be able to use Pillow in django in docker install Pillow dependencies
 

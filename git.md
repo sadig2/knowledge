@@ -11,7 +11,7 @@ touch .gitignore / edit file
 git add “file”
 git add -A /add all
 
-git reset “file” /remove from staging
+git “file” /remove from staging
 git reset / removes all
 
 git commit -m “ commentary”

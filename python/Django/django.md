@@ -1,6 +1,7 @@
 [django](https://docs.djangoproject.com/en/2.2/intro/tutorial03/)  
 [rest api](https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-2)
 [django mail](https://wsvincent.com/django-contact-form/)
+[django-cms](http://docs.django-cms.org/en/latest/index.html)
 
 ## to create virtual environment for python2
 
@@ -120,3 +121,7 @@
     from .models import Question
 
     admin.site.register(Question)
+
+## django wagtail cms
+
+[wagtail](https://www.dothedev.com/blog/integrate-wagtail-into-existing-django-project-django-blog-app/#)

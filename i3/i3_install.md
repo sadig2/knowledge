@@ -57,3 +57,12 @@ and run shift+super(windows button)+r to refresh i3
             xfce4-screenshooter -r -c
             sleep 3
             killall xfce4-screenshooter
+
+## to fix touchpad click issue  in /etc/X11/xorg.conf.d path add 90-touchpad.conf file and add these lines
+
+    Section "InputClass"
+            Identifier "touchpad"
+            MatchIsTouchpad "on"
+            Driver "libinput"
+            Option "Tapping" "on"
+    EndSection

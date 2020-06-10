@@ -3,6 +3,8 @@
 
 [docker for windows](https://futurestud.io/tutorials/how-to-fix-exec-user-process-caused-no-such-file-or-directory-in-docker)
 
+[dump postgres](https://devopsheaven.com/postgresql/pg_dump/databases/docker/backup/2017/09/10/backup-postgresql-database-using-docker.html)
+
 ## to start docker in windows convert file format from dos to unix with dos2unix _yourfile.sh_
 
 ## install docker

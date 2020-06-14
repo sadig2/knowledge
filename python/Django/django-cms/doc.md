@@ -1,0 +1,1 @@
+(django-cms)[http://docs.django-cms.org/en/latest/how_to/install.html#install-the-django-cms-package]

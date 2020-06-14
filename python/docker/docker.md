@@ -110,3 +110,12 @@
 
         RUN apk add zlib libjpeg-turbo-dev libpng-dev freetype-dev lcms2-dev libwebp-dev \
         harfbuzz-dev fribidi-dev tcl-dev tk-dev
+
+
+## to connect to running docker container if alpine
+
+        sudo docker exec -it "container_name" sh
+
+## to connect to running docker container if any other image like ubuntu or centos
+        
+        sudo docker exec -it "containter_name" bash

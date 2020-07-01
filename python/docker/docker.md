@@ -1,5 +1,6 @@
 [docker](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
 [docker-compose install](https://docs.docker.com/compose/install/)
+[docker install](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
 
 [docker for windows](https://futurestud.io/tutorials/how-to-fix-exec-user-process-caused-no-such-file-or-directory-in-docker)
 
@@ -119,3 +120,8 @@
 ## to connect to running docker container if any other image like ubuntu or centos
         
         sudo docker exec -it "containter_name" bash
+
+
+## to connect to datebase 
+
+        docker-compose exec db psql --username=hello_django --dbname=hello_django_dev

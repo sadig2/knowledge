@@ -1,4 +1,4 @@
-# in setting.js file
+# in setting.js file in vs code
 
     {
     "java.configuration.checkProjectSettingsExclusions": false,

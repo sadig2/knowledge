@@ -2,8 +2,8 @@
 
 (socar cpanel)[https://socar.live:2083/]
 
-username: socaraz
-password: Salam526aa!xt
+username: admin	
+password: socar
 
 (js extra)[https://github.com/infoportugal/wagtail-modeltranslation/issues/173]
 

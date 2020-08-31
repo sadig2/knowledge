@@ -39,3 +39,26 @@
     code --install-extension vscjava.vscode-spring-initializr
     code --install-extension xabikos.JavaScriptSnippets
     code --install-extension YouMayCallMeV.vscode-java-saber
+
+
+## setting for django 
+
+                {
+            "window.zoomLevel": 2,
+            "files.associations": {
+
+                "*.myphp": "php",
+                "*.go": "go",
+            
+                "*.py":"python"
+            
+            },
+            "editor.quickSuggestions": null,
+            "python.linting.pylintArgs": [
+                "--load-plugins=pylint_django"
+            ],
+
+            "[python]": {
+
+            },
+        }

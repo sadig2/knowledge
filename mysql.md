@@ -18,7 +18,7 @@ You can now sign in and enter the MySQL prompt.
 
 ## to log in to mysql vie user name or root
 
-   mysql -u "username" -p
+   RRRRRR
 
 This switches you to the MySQL prompt where you can issue SQL statements to interact with the database.
 Now, create a new MySQL user.

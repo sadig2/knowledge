@@ -90,3 +90,18 @@ last_login TIMESTAMP
 pg_dump -U sadig mydatabase > gdfd.sql 
 
 
+## Like Postgresql
+    select * from stories where header ~* 'SOCAR'
+
+## update postgesql field
+    UPDATE dashboard_post SET category = 'mesajimiz' WHERE category = '2'
+
+## postgresql delete all data
+    delete from dashboard_post
+
+## insert into postgresql
+
+    insert into dashboard_post(id,image,time,category) select id, photo, date, cat from stories
+
+
+

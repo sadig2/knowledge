@@ -58,6 +58,8 @@
 
 ## remove all docker network interfaces
 
+        sudo docker inspect 1d55bb8b35c6
+
         sudo docker network rm $(docker network ls -q)
 
 ## list docker network interfaces

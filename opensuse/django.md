@@ -16,6 +16,9 @@ deactivate to deactivate  virtualenv
 python location /usr/bin/
 
 
+virtualenv --python=python2 env
+
+
 virtualenv -p /usr/bin/python3.7 “nameOfenv”
 
 source “envname”/bin/activate 

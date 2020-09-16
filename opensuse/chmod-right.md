@@ -3,7 +3,9 @@ ls -ld  “file name”
 ## shebang to make file executable 
     #!/bin/sh
 
+## ownership of directory
 
+    sudo chown -R clanzu2 /home/clanzu2
 
 sudo chmod 7777 srv
 

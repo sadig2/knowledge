@@ -56,6 +56,9 @@
 
         sudo docker rm $(sudo docker ps -qa)
 
+## create network for docker
+        docker network create -d bridge my-bridge-network
+
 ## remove all docker network interfaces
 
         sudo docker inspect 1d55bb8b35c6

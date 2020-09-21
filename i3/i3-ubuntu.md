@@ -12,9 +12,9 @@
         status_command i3blocks -c ~/.config/i3/i3blocks.conf 
 } 
  
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl -- set-sink-volume 0 +5% #increase sound volume 
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl -- set-sink-volume 0 -5% #decrease sound volume 
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound 
+bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+ unmute
+bindsym XF86AudioLowerVolume exec amixer -q set Master 5%- unmute
+bindsym XF86AudioMute exec amixer -q set Master toggle
  
 # Sreen brightness controls 
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness 

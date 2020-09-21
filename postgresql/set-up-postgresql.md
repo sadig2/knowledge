@@ -1,3 +1,6 @@
+## install pgadmin 4 client  (click)[https://computingforgeeks.com/how-to-install-pgadmin-4-on-ubuntu/]
+    
+
 ## install postgres for ubuntu 
 
     sudo apt install postgresql postgresql-contrib

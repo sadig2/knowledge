@@ -1,4 +1,5 @@
 [docker](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
+[docker to kubernets](appdynamics.com/blog/product/migrating-from-docker-compose-to-kubernetes/#:~:text=One%20difference%20to%20note%20is,be%20added%20or%20removed%20dynamically.&text=With%20Kubernetes%2C%20we%20would%20have,a%20structure%20called%20a%20DaemonSet.)
 [docker-compose install](https://docs.docker.com/compose/install/)
 [docker install](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
 
@@ -130,3 +131,6 @@
 ## to connect to datebase 
 
         docker-compose exec db psql --username=hello_django --dbname=hello_django_dev
+
+
+## to install pgadmin4 (apt)[https://www.pgadmin.org/download/pgadmin-4-apt/]

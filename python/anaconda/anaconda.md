@@ -1,0 +1,1 @@
+## install anaconda into ubuntu [conda](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-20-04)

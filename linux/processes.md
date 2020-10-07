@@ -1,3 +1,9 @@
+# delete files except this one grep
+
+    ls | grep -v 'xx.txt' | xargs rm
+    ls | grep -v 'xx.txt' | xargs rm -rf
+
+
 #  stop the process  
     ctrl + z    
 bg  move last process to the background

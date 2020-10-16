@@ -2,7 +2,9 @@
 
     ls | grep -v 'xx.txt' | xargs rm
     ls | grep -v 'xx.txt' | xargs rm -rf
+## copy files grep with .json extension
 
+    cp -r  $(ls * |grep .json) xren/
 
 #  stop the process  
     ctrl + z    

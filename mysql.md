@@ -27,6 +27,11 @@ CREATE USER 'mysqluser'@'localhost' IDENTIFIED BY 'password';
 
 
 mysql -u root -p
+
+## dump mysql table
+
+   sudo mysqldump -u root -p request role_permission > rp.sql
+
 GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password';
 
 show databases ;

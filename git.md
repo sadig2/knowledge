@@ -35,6 +35,10 @@ git pull origin
 
     git stash apply
 
+## to remove remote origin
+
+    git remote remove origin
+
 ## untrack all files -r recursive all files in directory . means untrack all
 
     git rm -r --cached .

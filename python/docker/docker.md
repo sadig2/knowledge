@@ -90,6 +90,9 @@
 
         docker-compose -f docker-compose.prod.yml logs -f
 
+## to see docker container logs
+        go to 
+
 ## to turn down dev container
 
         sudo docker-compose down -v

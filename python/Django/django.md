@@ -2,6 +2,7 @@
 [rest api](https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-2)
 [django mail](https://wsvincent.com/django-contact-form/)
 [django-cms](http://docs.django-cms.org/en/latest/index.html)
+[django-rest-framework](https://github.com/encode/django-rest-framework/tree/master/rest_framework)
 
 ## to create virtual environment for python2
 

@@ -35,6 +35,10 @@ git pull origin
 
     git stash apply
 
+## git clone specific branch 
+    git clone --single-branch --branch <branchname> <remote-repo>
+
+
 ## to remove remote origin
 
     git remote remove origin

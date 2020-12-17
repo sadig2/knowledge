@@ -2,6 +2,7 @@
 [docker to kubernets](appdynamics.com/blog/product/migrating-from-docker-compose-to-kubernetes/#:~:text=One%20difference%20to%20note%20is,be%20added%20or%20removed%20dynamically.&text=With%20Kubernetes%2C%20we%20would%20have,a%20structure%20called%20a%20DaemonSet.)
 [docker-compose install](https://docs.docker.com/compose/install/)
 [docker install](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
+[docker for ubuntu 22](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
 
 [docker for windows](https://futurestud.io/tutorials/how-to-fix-exec-user-process-caused-no-such-file-or-directory-in-docker)
 

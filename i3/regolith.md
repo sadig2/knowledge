@@ -7,6 +7,6 @@
 
 ## if tearing in regolith try to login into Wayland
 
-## Chose america when installing ubuntu not to experience repo mirror erro
+## Chose america when installing ubuntu not to experience repo mirror error
 
 

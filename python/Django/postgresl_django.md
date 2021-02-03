@@ -16,3 +16,10 @@ Specifies the database for which to print the SQL. Defaults to default.
 ## or postgresl solution 
 
 SELECT setval('users_id_seq', (SELECT MAX(id) from "users"));
+
+
+## to screate schema
+
+CREATE SCHEMA public;
+GRANT ALL ON SCHEMA public TO clannzu2;
+GRANT ALL ON SCHEMA public TO public;

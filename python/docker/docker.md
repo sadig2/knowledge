@@ -42,6 +42,11 @@
 
         sudo docker rmi $(sudo docker images -qa)
 
+
+## Delete all volumes
+        docker volume rm $(docker volume ls -q)
+
+
 ## list containers of docker
 
         sudo docker ps -a

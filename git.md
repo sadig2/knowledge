@@ -39,6 +39,12 @@ git pull origin
     git clone --single-branch --branch <branchname> <remote-repo>
 
 
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
 ## to remove remote origin
 
     git remote remove origin

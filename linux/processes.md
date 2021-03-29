@@ -43,4 +43,11 @@ wget "url"   - to download a file
 
         to check it
 
+
+## list all pid of processes
+
+    pgrep "app_name"
+
+    kill $(pgred "app_name")
+
         

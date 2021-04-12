@@ -8,6 +8,7 @@
 
 [dump postgres](https://devopsheaven.com/postgresql/pg_dump/databases/docker/backup/2017/09/10/backup-postgresql-database-using-docker.html)
 
+[dokcer cache](https://pythonspeed.com/articles/docker-cache-pip-downloads/)
 ## to start docker in windows convert file format from dos to unix with dos2unix _yourfile.sh_
 
 ## install docker

@@ -10,6 +10,9 @@
 
 ## to create virtual environment
 
+## install python3
+    sudo apt-get install python3.9-venv
+
     sudo apt install -y python3-venv
     python3 -m venv venv1
 

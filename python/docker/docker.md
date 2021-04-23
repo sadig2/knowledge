@@ -1,3 +1,5 @@
+
+[python](https://runestone.academy/runestone/books/published/pythonds/index.html)
 [docker](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
 [docker to kubernets](appdynamics.com/blog/product/migrating-from-docker-compose-to-kubernetes/#:~:text=One%20difference%20to%20note%20is,be%20added%20or%20removed%20dynamically.&text=With%20Kubernetes%2C%20we%20would%20have,a%20structure%20called%20a%20DaemonSet.)
 [docker-compose install](https://docs.docker.com/compose/install/)

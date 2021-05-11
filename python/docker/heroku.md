@@ -8,3 +8,6 @@
     heroku run python manage.py migrate -a her-sadig
 ## bash commands in heroku container
     heroku run ls /app --app her-sadig
+## log inti heroku container
+    heroku run sh --app her-sadig
+    

@@ -100,7 +100,7 @@
         docker-compose -f docker-compose.prod.yml logs -f
 
 ## to see docker container logs
-        go to 
+        sudo docker logs container_id -f 
 
 ## to turn down dev container
 

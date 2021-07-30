@@ -69,3 +69,7 @@ git push origin --delete remoteBranchName
 ## to force git to push
 
     git push -f
+
+## to delete commit locally and remotely 
+    git reset --hard {commit id}
+    git push --force

@@ -1,4 +1,5 @@
 # customize terminal, set default python3(installed from brew - to override default python3)
+# .zshrc
 
     export PATH=/opt/homebrew/bin:$PATH
     export PATH=/opt/homebrew/opt/python@3.8/bin:$PATH

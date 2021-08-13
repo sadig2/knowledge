@@ -1,5 +1,6 @@
 ## settings for html marking, react 
 ## disable django extension in order html emmet to work, also install extension html
+## install pylance to detect unused libraries
 
 {
     "emmet.triggerExpansionOnTab": true,

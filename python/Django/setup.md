@@ -29,6 +29,9 @@
     source myprojectenv/bin/activate    
 ## install adaptor for postgresql  (psycopg2) 
     pip install django gunicorn psycopg2
+
+# psycopg2 error
+    sudo apt install python3-dev libpq-dev
 ## edit setting.py 
     DATABASES = {
         'default': {

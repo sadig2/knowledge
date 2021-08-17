@@ -73,3 +73,7 @@ git push origin --delete remoteBranchName
 ## to delete commit locally and remotely 
     git reset --hard {commit id}
     git push --force
+
+# git change url 
+
+    git remote set-url origin

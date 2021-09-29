@@ -77,3 +77,6 @@ git push origin --delete remoteBranchName
 # git change url 
 
     git remote set-url origin
+
+#  squash all commits in branch into 1
+    git merge --squash feature/login

@@ -80,3 +80,6 @@ git push origin --delete remoteBranchName
 
 #  squash all commits in branch into 1
     git merge --squash feature/login
+
+# delete all branches except master
+    git branch | grep -v "master"| xargs git branch -D {}

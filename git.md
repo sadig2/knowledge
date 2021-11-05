@@ -81,5 +81,5 @@ git push origin --delete remoteBranchName
 #  squash all commits in branch into 1
     git merge --squash feature/login
 
-# delete all branches except master
-    git branch | grep -v "master"| xargs git branch -D {}
+# delete all branches except master  where -I is to set an argument to send with the pipe
+    git branch |grep -v "master"| xargs -I arg1 git branch -d arg1

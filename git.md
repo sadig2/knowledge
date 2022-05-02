@@ -45,6 +45,15 @@ git branch -d localBranchName
 // delete branch remotely
 git push origin --delete remoteBranchName
 
+
+## remove last commit 
+
+    git reset --hard {commit id}
+
+## squash mutiple commits into one 
+
+    git rebase -i HEAD{id or number of commit}
+
 ## to remove remote origin
 
     git remote remove origin

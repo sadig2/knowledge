@@ -45,6 +45,8 @@ git branch -d localBranchName
 // delete branch remotely
 git push origin --delete remoteBranchName
 
+## git reset commit which has not been pushed
+    git reset --hard origin/master
 
 ## remove last commit 
 

@@ -93,4 +93,15 @@ git push origin --delete remoteBranchName
     git merge --squash feature/login
 
 # delete all branches except master  where -I is to set an argument to send with the pipe
-    git branch |grep -v "master"| xargs -I arg1 git branch -d arg1
+    git branch |grep -v "master"| xarg -I arg1 git branch -d arg1
+
+# how to rename commit
+
+    git commit --amend -m "new commit"
+
+
+# how to rename git branch 
+
+    git branch checkout current_branch
+    git branch -m "new_name"
+    git push origin :old_name_remote new name  

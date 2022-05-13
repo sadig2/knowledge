@@ -52,9 +52,9 @@ git push origin --delete remoteBranchName
 
     git reset --hard {commit id}
 
-## squash mutiple commits into one 
+## squash multiple commits into one 
 
-    git rebase -i HEAD{id or number of commit}
+    git rebase -i HEAD~{number of commits}
 
 ## to remove remote origin
 

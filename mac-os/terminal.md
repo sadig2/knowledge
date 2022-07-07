@@ -5,3 +5,5 @@
     export PATH=/opt/homebrew/opt/python@3.8/bin:$PATH
 
     PROMPT='%B%F{cyan}%1~%f %F{178}$%f %b'
+
+    ___

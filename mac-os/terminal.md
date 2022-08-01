@@ -6,4 +6,6 @@
 
     PROMPT='%B%F{cyan}%1~%f %F{178}$%f %b'
 
-    ___
+# when python3 venv does not work 
+
+    apt-get install python3.4-dev python3.4-venv

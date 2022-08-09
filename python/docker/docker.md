@@ -56,7 +56,7 @@
 
 ## list only id of container
 
-        sudo docker ps -aq
+        sudo  ps -aq
 
 ## remove special container
 

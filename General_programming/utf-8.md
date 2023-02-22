@@ -1,1 +1,0 @@
-## utf 8 takes 2 bytes per character  16 bits 

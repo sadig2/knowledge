@@ -1,1 +1,0 @@
-[alternative version of python 3](https://jcutrer.com/linux/upgrade-python37-ubuntu1810)

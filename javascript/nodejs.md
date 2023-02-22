@@ -1,1 +1,0 @@
-**npm** -is package manager of nodejs javascript runtime environment

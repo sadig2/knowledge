@@ -1,1 +1,0 @@
-Understanding this.setState({ [name]: value}) React  [link](https://medium.com/@bretdoucette/understanding-this-setstate-name-value-a5ef7b4ea2b4)
